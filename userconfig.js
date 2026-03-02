@@ -65,7 +65,7 @@ const default_configuration = {
               name: "youtube",
               url: "https://www.youtube.com/",
               icon: "brand-youtube",
-              icon_color: palette.peach
+              icon_color: palette.red
             },
           ],
         },
@@ -157,7 +157,7 @@ const default_configuration = {
             {
               name: "claude",
               url: "https://claude.ai/login",
-              icon: "IconAsterisk",
+              icon: "asterisk",
               icon_color: palette.peach,
             },
             {
@@ -262,7 +262,7 @@ const default_configuration = {
             {
               name: "bluesky",
               url: "https://bsky.app/",
-              icon: "brand-bluesky",
+              icon: "IconBrandBluesky",
               icon_color: palette.blue,
             },
           ],
@@ -305,4 +305,5 @@ const CONFIG = new Config(default_configuration, palette);
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
 root.style.setProperty("--accent", palette.blue);
+
 
